@@ -1,0 +1,259 @@
+﻿body
+{
+    margin: 0;
+    padding: 0px;
+
+}
+
+.gradient{
+    background-color: #123456;
+    background-image: linear-gradient(to bottom right, #123456, #590080);
+    background-repeat: no-repeat;
+    height: 150%;
+    padding: 0px;
+    margin: 0px, 0px, 0px, 0px;
+}
+
+header {
+    background: radial-gradient(#66023c, #5e1224);
+    background-size: 100%;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid;
+    border-color: darkslategray;
+    border-width: 5px;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 46px;
+    color: azure;
+    font-weight: 700;
+
+}
+
+.aboutMe {
+    height: 270px;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border-width: 10px;
+    border-color: azure;
+    border-style: outset;
+
+}
+
+.aboutText{
+    color: azure;
+    font-size: 18px;
+    margin: 6px, 5px, 5px, 5px;
+    padding: 0px;
+}
+
+.ul1 {
+    color: azure;
+    font-size: 18px;
+}
+
+h2{
+    color: aquamarine;
+}
+h4{
+    color: mediumaquamarine;
+    font-size: 20px;
+}
+
+
+.mainContentBox {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-width: 5px;
+    border-color: azure;
+    border-style: inset;
+}
+
+.mainContentText {
+
+    color: azure;
+    font-size: 20px;
+    text-indent: 2cm;
+    line-height: 25px;
+    text-align: justify;
+}
+
+table, td {
+    background-color: rgba(240, 255, 255, 0.80);
+    border: 3px solid darkslategrey;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a:visited, a:link {
+    color: azure;
+    font-size: inherit;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: mediumaquamarine;
+    text-decoration: underline;
+    font-size: inherit;
+}
+
+th {
+    background-color: rgba(240, 255, 255, 0.80);
+    border: 3px solid #123456;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+caption {
+    color: #123456;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: rgba(240, 255, 255, 0.80);
+    border: 3px solid darkslategrey;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+
+.contactForm{
+    width: 70%;
+    margin: auto;
+    border: 10px outset azure;
+    padding: 20px;
+}
+
+label{
+    color: azure;
+    font-size: 20px
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid darkslategrey;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 255, 255, 0.70);
+    color: black;
+}
+
+input[type=submit] {
+    background-color: darkslateblue;
+    color: azure;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    padding: 25px;
+    margin: auto;
+}
+
+input[type=submit]:hover {
+        background-color: rgba(72, 61, 139, 0.65);
+        cursor: pointer;
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+    background: black;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.fa-facebook:hover {
+    background-color: #254587;
+    width: 30px;
+    padding: 20px;
+}
+.fa-instagram:hover {
+    background-color: #aa0ebb;
+    width: 30px;
+    padding: 20px;
+}
+.fa-twitter:hover {
+    background-color: #0094ff;
+    width: 30px;
+    padding: 20px;
+}
+.fa-google:hover {
+    background-color: #ff2f00;
+    width: 30px;
+    padding: 20px;
+}
+.fa-linkedin:hover {
+    background-color: #cb0000;
+    width: 30px;
+    padding: 20px;
+}
+.fa-envelope:hover {
+    background-color: #d5b000;
+    width: 30px;
+    padding: 20px;
+}
+.fa-phone:hover {
+    background-color: #00a415;
+    width: 30px;
+    padding: 20px;
+}
+
+
+.footerStuff {
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 180px;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.socialMedia a{
+    margin: 5px, 2px;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    list-style: none;
+    display: inline;
+}
+
+#socials ul {
+    list-style: none;
+}
+#socials li{
+    display: inline;
+}
+
+.footerText {
+    width: 100%;
+    margin: auto;
+}
+
+h3 {
+    color: azure;
+    font-size: 25px;
+    padding: 15px;
+    margin: auto;
+    text-align:center;
+}
